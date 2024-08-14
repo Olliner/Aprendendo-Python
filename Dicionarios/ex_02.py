@@ -61,3 +61,4 @@ print('\nResultado final:')
 print('*-' * 40)
 for posicao, jogador in enumerate(ordenado, start=1):
     print(f'{posicao}ª Colocado: Jogador {jogador["Jogador"]} com o dado {jogador["Dado"]}')
+    sleep(1)
